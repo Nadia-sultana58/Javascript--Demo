@@ -2,8 +2,6 @@
 This is javascript
 <br>
 Author-Nadia Sultana
-//This is Addition 
-
 let a = 10;
 let b = 5;
 let addition = a + b;
@@ -21,27 +19,26 @@ console.log("a* b =", multiplication);
 let division = a / b;
 console.log("a/b=", division);
 
-//Temperature from Celsius to Fahrenheit
+//Temperature from Celsius to Fahrenheit.
 let celsius = 25;
 let fahrenheit = (celsius * 9 / 5) + 32;
 console.log(celsius + "°C is equal to " + fahrenheit + "°F");
 
-//Using if-else statements
-let number = 6;
+// Using if-else
+let number = -10;
 if (number > 0) {
     console.log("The number is positive.");
 } else if (number < 0) {
     console.log("The number is negative.");
 } else {
-    console.log("The number is 0.");
-
+    console.log("The number is zero.");
 }
 
-//Calculate grades based on mark
+//Calculate grade based on mark   
 let marks = 85;
-if (marks >= 90)
+if (marks >= 90) {
     console.log("A");
-else if (marks >= 80) {
+} else if (marks >= 80) {
     console.log("B");
 } else if (marks >= 70) {
     console.log("C");
@@ -51,10 +48,9 @@ else if (marks >= 80) {
     console.log("F");
 }
 
+
 //Modulus operator
-
 let num = 7;
-
 if (num % 2 === 0) {
     console.log("Even");
 } else {
